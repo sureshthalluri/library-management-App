@@ -10,7 +10,7 @@ from django.contrib.auth.forms import UserCreationForm
 from django.contrib.auth import login
 from django.urls import reverse_lazy
 from .forms import *
-from django.http import request
+from django.http import request 
 from datetime import datetime, timedelta
 from django.contrib import messages
 

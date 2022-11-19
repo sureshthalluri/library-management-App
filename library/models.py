@@ -6,7 +6,7 @@ from django.db.models.signals import post_save
 from django.db.models.signals import pre_save, pre_delete, post_delete
 from django.contrib.auth.models import PermissionsMixin
 from django.utils.timezone import now
-import uuid
+import uuid 
 import random
 # relation containg all genre of books
 
